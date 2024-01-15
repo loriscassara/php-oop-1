@@ -4,6 +4,8 @@
     $deadpool = new Movie ("Deadpool", "Tim Miller", "Azione/Commedia", "2016");
     $venom = new Movie ("Venom", "Ruben Fleischer", "Azione/Sci-fi", "2018");
 
+    $movies = array($avatar, $deadpool, $venom);
+
     class Movie {
         public $filmName;
         public $director;

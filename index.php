@@ -11,6 +11,7 @@
 </head>
 <body>
     <?php
+        /*
         var_dump($avatar);
         var_dump($deadpool);
         var_dump($venom);
@@ -18,6 +19,15 @@
         echo $avatar->getDescription() . "<br>";
         echo $deadpool->getDescription() . "<br>";
         echo $venom->getDescription();
+        */
+
+        var_dump($movies);
+
+        foreach($movies as $film){
+            echo $film->getDescription();
+            echo "<br>";
+        }
+
     ?>
 </body>
 </html>
